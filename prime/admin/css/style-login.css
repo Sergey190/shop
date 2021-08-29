@@ -1,0 +1,85 @@
+body{
+ background: url(/images/1211.jpg); 
+}
+#block-pass-login{
+  width: 390px;
+  height: auto;
+  border: 1px solid blue;
+  background-color: white;
+  margin: 100px auto;
+   border-radius: 10px 10px 10px 10px; /*Остальныйе*/
+  -webkit-border-radius:10px 10px 10px 10px;/*safari*/
+  -moz-border-radius:110px 10px 10px 10px;/*firefox*/
+  border: 1px black;
+   background-color: #F7F7F9;
+-moz-box-shadow: 0 0 25px#00A2EB;
+  -webkit-box-shadow:0 0 25px #00A2EB;
+  box-shadow: 0 0 25px #00A2EB;
+   opacity: 0.8; /* Полупрозрачный фон */
+}
+#pass-login li{
+   margin-top: 10px; 
+}
+#pass-login label{
+   font: 15px sans-serif;
+   position: absolute;
+   margin-top: 52px;
+   margin-left: 10px;
+}
+#pass-login input{
+   width: 200px;
+   height: 24px;
+   margin-top: 40px;
+   margin-left: 72px;
+   border: 1px solid #D6D6D6;
+   font: 17px sans-serif;
+   
+   outline: none;
+background-color: #F7F7F9;
+ border: none;
+    border-bottom: 2px solid blue; 
+}
+#pass-login input:active{
+  border-:bold 18px blue; 
+  border-bottom-width: 2px;
+   border-bottom-style: solid;
+border-bottom-color: red;
+border-bottom-style:ridge;
+transition: all 200ms ease
+outline: none;
+  }
+  
+  #pass-login input:focus{
+border-:bold 18px blue; 
+  border-bottom-width: 2px;
+   border-bottom-style: solid;
+border-bottom-color: #00FF00;
+border-bottom-style:ridge;
+transition: all 100ms ease
+outline: none;}
+
+#submit_enter{
+  margin-left: 5px;
+  margin-top: 10px;
+    width: 90px;
+  height: 30px;
+   border: 1px solid red;
+   background-color: #EAEAEA;
+   margin-right: 10px; 
+   padding: 4px 6px;
+   font: bold 12px sans-serif;
+   cursor: pointer;
+}
+#submit_enter:hover{
+   border: 1px solid #B4B4B4;
+}
+#msgerror{
+    font: 14px sans-serif;
+    color: red;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #FDE5E0;
+    border: 1px solid #FDCDC3;
+    margin-top: 0;
+}
